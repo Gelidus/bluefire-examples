@@ -23,7 +23,7 @@ module.exports = {
   ClientPackets: {
     Ping: [
       opcode: 0 # means default value of opcode for this packet is 0
-      value: 'stringle'
+    , value: 'stringle'
     ]
   }
 
@@ -33,7 +33,7 @@ module.exports = {
   ServerPackets: {
     Ping: [
       opcode: 0 # means default value of opcode for this packet is 0
-      value: 'stringle'
+    , value: 'stringle'
     ]
   }
 }
