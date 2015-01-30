@@ -30,7 +30,7 @@ module.exports = {
       opcode: 1
     , name: "stringle"
     , password: "stringle"
-    , gender: "uint8"
+    , gender: "uint8" # 0 male, 1 female
     , age: "uint8"
     ]
 
