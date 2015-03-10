@@ -5,9 +5,9 @@ the configuration files, it also uses $connection service to define routes and e
 @author Gelidus
 ###
 
-Application = require('bluefire').Application
+Application = require('bluefire').ClientApplication
 
-app = new Application(false) # client
+app = new Application() # client
 
 # will try to find configurations, packets, controllers, models atc.
 app.install (err, result) ->

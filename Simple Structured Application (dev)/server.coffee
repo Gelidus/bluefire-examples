@@ -5,7 +5,7 @@ the configuration files, it also uses $connection service to define routes and e
 @author Gelidus
 ###
 
-Application = require('bluefire').Application
+Application = require('bluefire').ServerApplication
 
 app = new Application()
 
