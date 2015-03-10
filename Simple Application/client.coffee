@@ -1,6 +1,6 @@
-Application = require('bluefire').Application
+Application = require('bluefire').ClientApplication
 
-app = new Application(false) # client
+app = new Application() # client
 
 app.config ($connection, $router) ->
 

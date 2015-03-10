@@ -1,4 +1,4 @@
-Application = require('bluefire').Application
+Application = require('bluefire').ServerApplication
 
 app = new Application()
 
